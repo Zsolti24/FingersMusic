@@ -25,7 +25,7 @@ namespace Nyilas_game_1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("1. Zene");
+            MessageBox.Show("KITÖRÖLTEM");
         }
     }
 }
