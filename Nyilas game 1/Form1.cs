@@ -26,6 +26,7 @@ namespace Nyilas_game_1
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("KITÖRÖLTEM222");
+            MessageBox.Show("KITÖRÖLTEM222");
         }
     }
 }
