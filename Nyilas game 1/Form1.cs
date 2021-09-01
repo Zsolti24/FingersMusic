@@ -27,6 +27,7 @@ namespace Nyilas_game_1
         {
             MessageBox.Show("KITÖRÖLTEM222");
             MessageBox.Show("KITÖRÖLTEM222");
+            MessageBox.Show("333333");
         }
     }
 }
