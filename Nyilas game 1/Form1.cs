@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Nyilas_game_1
 {
     public partial class Form1 : Form
     {
+
+        private SoundPlayer _soundPlayer;
+
         public Form1()
         {
             InitializeComponent();
+            _soundPlayer = new SoundPlayer("i.wav");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,9 +30,12 @@ namespace Nyilas_game_1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("KITÖRÖLTEM222");
-            MessageBox.Show("KITÖRÖLTEM222");
-            MessageBox.Show("333333");
+            _soundPlayer.Play();   
+        }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            _soundPlayer.Play();
         }
     }
 }
